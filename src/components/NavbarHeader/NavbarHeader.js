@@ -8,7 +8,7 @@ const NavbarHeader = () => {
 
         <Navbar bg="light" variant="light" className='shadow fw-bold'>
             <Container>
-                <Link className='navbar-brand text-warning' to='/'> Tech Quiz</Link>
+                <Link className='navbar-brand fs-2' style={{ 'color': '#EEB34B' }} to='/'> Tech Quiz</Link>
 
                 <Nav className="ms-auto">
                     <Link className='nav-link' to='/' >Home</Link>
