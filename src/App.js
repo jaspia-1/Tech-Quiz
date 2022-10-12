@@ -9,6 +9,7 @@ import Blog from './components/BLog/Blog';
 import Statistics from './components/Statistics/Statistics';
 import Topics from './components/Topics /Topics';
 import Quiz from './components/Quiz/Quiz';
+import Errorpage from './Errorpage';
 
 function App() {
   const router = createBrowserRouter([
@@ -57,6 +58,10 @@ function App() {
         }
 
       ]
+    },
+    {
+      path: '/*',
+      element: <Errorpage></Errorpage>
     }
 
   ])
